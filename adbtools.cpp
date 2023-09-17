@@ -36,6 +36,7 @@ void jiuzhuan(){
 void reboot(){
     int reboot_num;
     cout<<"1.重启到Recovery"<<endl<<"2.重启到Fastboot"<<endl<<"3.重启到高通9008深刷模式"<<endl;
+    cin>>reboot_num;
     switch(reboot_num)
     {
         case 1:
